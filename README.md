@@ -85,7 +85,7 @@ make -sj $(nproc)
 ### Prerequisites:
 1. Install Visual Studios (2019) (with the additional installation package "C++ Cmake Tools for Windows)
 2. Install latest perl to C:\Perl (https://www.perl.org/get.html)
-   Follow the steps outlined and the default perl installtion should work
+   Follow the steps outlined and the default perl installation should work
 
 ### Building via Visual Studios Command Line:
 Open "Developer Command Prompt for VS 2019"
@@ -209,7 +209,7 @@ No, use geth, the go program made for ethereum by ethereum.
 
 ### CUDA GPU order changes sometimes. What can I do?
 
-There is an environment var `CUDA_DEVICE_ORDER` which tells the Nvidia CUDA driver how to enumerates the graphic cards.
+There is an environment var `CUDA_DEVICE_ORDER` which tells the Nvidia CUDA driver how to enumerate the graphic cards.
 The following values are valid:
 
 * `FASTEST_FIRST` (Default) - causes CUDA to guess which device is fastest using a simple heuristic.
